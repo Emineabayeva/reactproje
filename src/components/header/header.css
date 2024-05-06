@@ -44,3 +44,27 @@ color:  #55e6a5;
   left: 50%;
   transform: translateX(-50%);
 }
+@media only screen and (max-width: 820px) {
+  .media ul {
+    display: none;
+  }
+  .media .container {
+    max-width: 820px;
+  }
+}
+@media only screen and (max-width: 717px) {
+  .media ul {
+    display: none;
+  }
+  .media .container {
+    max-width: 717px;
+  }
+}
+@media only screen and (max-width: 626px) {
+  .media ul {
+    display: none;
+  }
+  .media .container {
+    max-width: min-content;
+  }
+}

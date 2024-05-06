@@ -4,8 +4,10 @@ import "../../App.css";
 
 function header() {
   return (
-    <div className=" my_nav">
-      <div className="header__start">
+    <header>
+<div className=" my_nav">
+  <div className="media">
+  <div className="header__start">
         <img src="https://zyan.vercel.app/images/logo.png" alt="" />
       </div>
       <nav className="header__center">
@@ -34,6 +36,10 @@ function header() {
         <i class="fa-solid fa-bars"></i>
       </div>
     </div>
+  </div>
+  
+    </header>
+    
   );
 }
 

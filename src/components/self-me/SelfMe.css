@@ -2,16 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px;
   height: 100vh;
 }
 .section__left {
   width: 700px;
 }
 .section__left p {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   font-size: 20px;
-  font-weight: 400;
+  /* font-weight: 400; */
   color: white;
 }
 .section__left h1 {
@@ -20,8 +19,7 @@
 .section__left span {
   color: #55e6a5;
 }
-.section__left span:hover {
-}
+
 .btn {
   margin-top: 25px;
   display: flex;
@@ -57,6 +55,12 @@ color: white;
   background-color: #55e6a5;
   border: none;
   font-size: 26px;
+}
+.Section__img{
+  background-image: url("https://zyan.vercel.app/images/shapes/banner_shape.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 21px 15px;
 }
 
 .bck_img {
